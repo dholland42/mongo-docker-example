@@ -1,0 +1,12 @@
+{
+  "criteria":
+  {
+    "funding_mechanism": ["SB"]
+  },
+  "include_fields": [
+    "FiscalYear", "AwardAmount", "ProjectNumSplit", "FullFoa", "FullStudySection"],
+  "offset": 0,
+  "limit": 25,
+  "sort_field": "project_start_date",
+  "sort_order": "desc"
+}

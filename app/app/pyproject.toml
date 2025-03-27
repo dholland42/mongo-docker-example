@@ -1,0 +1,27 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Daniel Holland", email = "dholland414@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "pydantic>=2.10.6",
+    "pymongo>=4.11.3",
+    "typer>=0.15.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "nox>=2025.2.9",
+    "pytest>=8.3.5",
+    "ruff>=0.11.2",
+]
